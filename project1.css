@@ -1,0 +1,48 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0047AB;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    position: relative;
+    overflow: auto;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  #banner-image-container {
+    display: flex;
+    flex-direction: row; 
+  }
+
+  #banner-image2 {
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 0.5rem;
+    overflow: auto;
+  }
+  
+  
