@@ -1,48 +1,107 @@
 /* Reset default browser styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-  }
-  
-  /* Body styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f2f2f2;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    text-decoration: none;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #0047AB;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    height: auto;
-    position: relative;
-    overflow: auto;
-  }
-  
-  header h1 {
-    font-size: 36px;
-  }
-  #banner-image-container {
-    display: flex;
-    flex-direction: row; 
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
-  #banner-image2 {
-    width: 100%;
-    top: 0;
-    z-index: 1;
-    padding: 0.5rem;
-    overflow: auto;
-  }
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.banner-image-container {
+  position: relative;
+}
+
+.banner-image2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4b0082;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.project-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Main Roles section styles */
+.mainRoles ul {
+  list-style-type: none;
+}
+
+.mainRoles li {
+  margin-bottom: 15px;
+}
+
+/* Design Process section styles */
+.designProcess ul {
+  list-style-type: none;
+}
+
+.designProcess li {
+  margin-bottom: 10px;
+}
+
+/* Images styles */
+figure {
+  margin-bottom: 20px;
+}
+.reportAndReflection li {
+  margin-left: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
   
   
