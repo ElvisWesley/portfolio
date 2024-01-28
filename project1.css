@@ -98,10 +98,20 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
-}
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 
+}
+#back {
+left: 5px;
+text-align: left;
+position: absolute;
+}
 footer p {
   font-size: 14px;
+  text-align: center;
 }
   
   
