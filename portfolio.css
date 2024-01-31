@@ -28,6 +28,7 @@
     cursor: pointer;
     z-index: 2;
     transition: .5s;
+    margin-left: 4.4rem;
   }
   #dark-mode-toggle:hover {
     scale: 1.1;
@@ -134,14 +135,15 @@
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 15px;
+    color: black;
   }
-  #projects {
+  
+  .project-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
   }
   .project-card {
     width: 30%;
@@ -178,6 +180,34 @@
     text-decoration: none;
     color: black;
   }
+  .project-card:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .project-card:active {
+    transform: scale(0.95);
+    transition: all 0.05s ease;
+  }
+  @media only screen and (max-width: 700px) {
+    .project-card {
+        width: 50%;
+    }
+    .profile-picture {
+      top: -7rem;
+      right: -10rem;
+    }
+    #dark-mode-toggle {
+      margin-top: 0.5rem;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    .profile-picture {
+      top: -7rem;
+      right: -15rem;
+    }
+}
   
   .banner {
     background-color: #333;
@@ -215,4 +245,7 @@
   }
   #contact a {
     font-size: 1rem;
+  }
+  #contact li {
+    color: black;
   }
